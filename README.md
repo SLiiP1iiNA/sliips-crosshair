@@ -5,6 +5,7 @@ A highly optimized, fully standalone crosshair UI for FiveM.
 Designed to give your players a massive quality-of-life upgrade, this script allows players to build and save their perfect custom optic without sacrificing a single drop of server performance or bloating your database.
 
 <img width="640" height="596" alt="DKNqnWYETDQ5" src="https://github.com/user-attachments/assets/067d7252-dfb4-457b-a36f-8e1c01d43f01" />
+
 ![Kpb9C98mVGqF](https://github.com/user-attachments/assets/bc7000f4-fd97-42e0-bd65-1481fdd70103)
 
 
