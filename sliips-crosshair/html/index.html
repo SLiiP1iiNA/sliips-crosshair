@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SLiiPS Crosshair</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="crosshair-overlay">
+        <svg id="live-crosshair" viewBox="0 0 24 24"></svg>
+    </div>
+
+    <div id="ui-container" style="display: none;">
+        <div class="menu-box">
+            <div class="header">
+                <h2>RETICLE CONFIGURATION</h2>
+                <label class="switch">
+                    <input type="checkbox" id="toggle-active">
+                    <span class="slider"></span>
+                </label>
+            </div>
+
+            <div class="settings-group">
+                <label>OPTIC VARIANT</label>
+                <div class="variant-grid" id="variant-grid"></div>
+            </div>
+
+            <div class="settings-group">
+                <label>RETICLE SCALE (<span id="size-val">24</span>px)</label>
+                <input type="range" id="size-slider" min="5" max="150" value="24">
+            </div>
+
+            <div class="settings-group">
+                <label>ILLUMINATION COLOR</label>
+                <div class="color-wrapper">
+                    <input type="color" id="color-picker" value="#00ff00">
+                    <div class="color-preview-bg"></div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <button id="btn-close">APPLY & CLOSE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
